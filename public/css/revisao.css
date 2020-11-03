@@ -1,0 +1,43 @@
+/*
+  @author Ricardo Urbano
+  Criado com as classes para formatar a tela de revisao - 09.01.2020
+  última atualização: 09.01.2020
+*/
+
+
+.image-preview-fixo{
+	padding: 1px
+}
+
+.image-preview-span-num {
+	float: left;
+	display: inline;
+    font-size: 20px;
+    font-weight: bold;
+    padding-right: 2px;
+}
+
+
+.image-preview-span-num-title {
+    font-size: 20px;
+    font-weight: bold;
+    display: block;
+}
+.div-img-preview{
+	margin: 1px
+}
+
+.img-detalhe-min
+{
+  max-width:100px;
+  max-height: 100px; 
+}
+
+.canvas-detalhe {
+    background: #f8f8f8;
+    padding: 0;
+    margin: 0 auto;
+    margin-bottom: 1rem;
+    display: block;
+    /* background: red; */
+}

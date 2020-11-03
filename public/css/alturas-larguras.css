@@ -1,0 +1,604 @@
+/* 
+  @author Marcelo Cabral
+  Criado com as classes básicas para altura e largura do meu uso
+  no código html.
+  23.01.2018
+  última atualização: 03.05.2019
+*/
+
+
+/* CLASSES DE ALTURA */
+.secaoComMenu{
+  height: 82vh !important;
+  max-height: 82vh !important;
+}
+.secao10{
+  height: 10vh !important;
+  max-height: 10vh !important;
+}
+.secao15{
+  height: 15vh !important;
+  max-height: 15vh !important;
+}
+.secao20{
+  height: 20vh !important;
+  max-height: 20vh !important;
+}
+.secao25{
+  height: 25vh !important;
+  max-height: 25vh !important;
+}
+.secao30{
+  height: 30vh !important;
+  max-height: 30vh !important;
+}
+.secao33{
+  height: 33vh !important;
+  max-height: 33vh !important;
+}
+.secao35{
+  height: 35vh !important;
+  max-height: 35vh !important;
+}
+.secao40{
+  height: 40vh !important;
+  max-height: 40vh !important;
+}
+.secao45{
+  height: 45vh !important;
+  max-height: 45vh !important;
+}
+.secao50{
+  height: 50vh !important;
+  max-height: 50vh !important;
+}
+.secao55{
+  height: 55vh !important;
+  max-height: 55vh !important;
+}
+.secao60{
+  height: 60vh !important;
+  max-height: 60vh !important;
+}
+.secao65{
+  height: 65vh !important;
+  max-height: 65vh !important;
+}
+.secao70{
+  height: 70vh !important;
+  max-height: 70vh !important;
+}
+.secao75{
+  height: 75vh !important;
+  max-height: 75vh !important;
+}
+.secao80{
+  height: 80vh !important;
+  max-height: 80vh !important;
+}
+.secao85{
+  height: 85vh !important;
+  max-height: 85vh !important;
+}
+.secao90{
+  height: 90vh !important;
+  max-height: 90vh !important;
+}
+.secao95{
+  height: 95vh !important;
+  max-height: 95vh !important;
+}
+.secao100{
+  height: 100vh !important;
+  max-height: 100vh !important;
+}
+.secao150{
+  height: 150vh !important;
+  max-height: 150vh !important;
+}
+.secao180{
+  height: 180vh !important;
+  max-height: 180vh !important;
+}
+/* FIM DAS CLASSES DE ALTURA */
+
+/* CLASSES DE LARGURA */
+.larguraTotal{
+  width:     100% !important;
+  max-width: 100% !important;
+  padding: 0 0;
+  margin:  0;
+}
+.largura100{
+  width:     100% !important;
+  max-width: 100% !important;
+}
+.larguraPadding7{
+  width: 100% !important;
+  padding: 0 7%;
+  margin: 0;
+  max-width: 100%;
+}
+.largura95 {
+  width: 95% !important;
+  max-width: 95% !important;
+}
+.largura90 {
+  width: 90% !important;
+  max-width: 90% !important;
+}
+.largura85{
+  width: 85% !important;
+  max-width: 85% !important;
+  /*padding: 0 0;*/
+  /*margin: 0 auto;*/
+}
+.largura80{
+  width: 80% !important;
+  max-width: 80% !important;
+  /*padding: 0 0;*/
+  /*margin: 0 auto;*/
+}
+.largura75{
+  width: 75% !important;
+  max-width: 75% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura65{
+  width: 65% !important;
+  max-width: 65% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura60{
+  width: 60% !important;
+  max-width: 60% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura55{
+  width: 55% !important;
+  max-width: 55% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura50{
+  width: 50% !important;
+  max-width: 50% !important;
+}
+.largura45{
+  width: 45% !important;
+  max-width: 45% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura40{
+  width: 40% !important;
+  max-width: 40%;
+  padding: 0 0;
+  margin: 0;
+}
+.largura35{
+  width: 35% !important;
+  max-width: 35% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura33{
+  width: 33% !important;
+  max-width: 33% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura30{
+  width: 30% !important;
+  max-width: 30% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura25{
+  width: 25% !important;
+  max-width: 25% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura20{
+  width: 20% !important;
+  max-width: 20% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura15{
+  width: 15% !important;
+  max-width: 15% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura10{
+  width: 10% !important;
+  max-width: 10% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura9{
+  width: 9% !important;
+  max-width: 9% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura8{
+  width: 8% !important;
+  max-width: 8% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura7{
+  width: 7% !important;
+  max-width: 7% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura6{
+  width: 6% !important;
+  max-width: 6% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.largura5{
+  width: 5% !important;
+  max-width: 5% !important;
+  padding: 0 0;
+  margin: 0;
+}
+.larguraMin200{
+  min-width: 200px !important;
+}
+.largura1200{
+  width: 1200px;
+  max-width: 1200px !important;
+}
+.larguraMetade{
+  width: 50% !important;
+  max-width: 50% !important;
+  padding: 0 0;
+  margin: 0 auto;
+}
+/* FIM DAS CLASSES DE LARGURA */
+
+/* CLASSES DE MARGEM */
+.margemT90{
+  margin-top: 90px !important;
+}
+.margemT80{
+  margin-top: 80px !important;
+}
+.margemT70{
+  margin-top: 70px !important;
+}
+.margemT60{
+  margin-top: 60px !important;
+}
+.margemT50{
+  margin-top: 50px !important;
+}
+.margemT40{
+  margin-top: 40px !important;
+}
+.margemT30{
+  margin-top: 30px !important;
+}
+.margemT20{
+  margin-top: 20px !important;
+}
+.margemT10{
+  margin-top: 10px !important;
+}
+.margemT5{
+  margin-top: 5px !important;
+}
+.margemTauto{
+  margin-top: auto !important;
+}
+
+.margemB90{
+  margin-bottom: 90px !important;
+}
+.margemB80{
+  margin-bottom: 80px !important;
+}
+.margemB70{
+  margin-bottom: 70px !important;
+}
+.margemB60{
+  margin-bottom: 60px !important;
+}
+.margemB50{
+  margin-bottom: 50px !important;
+}
+.margemB40{
+  margin-bottom: 40px !important;
+}
+.margemB30{
+  margin-bottom: 30px !important;
+}
+.margemB20{
+  margin-bottom: 20px !important;
+}
+.margemB10{
+  margin-bottom: 10px !important;
+}
+.margemB5{
+  margin-bottom: 5px !important;
+}
+.margemB0{
+  margin-bottom: 0px !important;
+}
+.margemBauto{
+  margin-bottom: auto !important;
+}
+
+.margemR90{
+  margin-right: 90px !important;
+}
+.margemR80{
+  margin-right: 80px !important;
+}
+.margemR70{
+  margin-right: 70px !important;
+}
+.margemR60{
+  margin-right: 60px !important;
+}
+.margemR50{
+  margin-right: 50px !important;
+}
+.margemR40{
+  margin-right: 40px !important;
+}
+.margemR30{
+  margin-right: 30px !important;
+}
+.margemR20{
+  margin-right: 20px !important;
+}
+.margemR10{
+  margin-right: 10px !important;
+}
+.margemR5{
+  margin-right: 5px !important;
+}
+.margemRauto{
+  margin-right: auto !important;
+}
+
+.margemL90{
+  margin-left: 90px !important;
+}
+.margemL80{
+  margin-left: 80px !important;
+}
+.margemL70{
+  margin-left: 70px !important;
+}
+.margemL60{
+  margin-left: 60px !important;
+}
+.margemL50{
+  margin-left: 50px !important;
+}
+.margemL40{
+  margin-left: 40px !important;
+}
+.margemL30{
+  margin-left: 30px !important;
+}
+.margemL20{
+  margin-left: 20px !important;
+}
+.margemL10{
+  margin-left: 10px !important;
+}
+.margemL5{
+  margin-left: 5px !important;
+}
+.margemLauto{
+  margin-left: auto !important;
+}
+
+.semMargem{
+  margin: 0 !important;
+}
+.centralizado{
+  margin: 0 auto !important;
+}
+/* FIM DAS CLASSES DE MARGEN */
+
+/* CLASSES DE PADDINGS */
+.padding100{
+  padding: 100px !important;
+}
+.paddingT100{
+  padding-top: 100px !important;
+}
+.paddingB100{
+  padding-bottom: 100px !important;
+}
+.paddingL100{
+  padding-left: 100px !important;
+}
+.paddingR100{
+  padding-right: 100px !important;
+}
+
+.padding90{
+  padding: 90px !important;
+}
+.paddingT90{
+  padding-top: 90px !important;
+}
+.paddingB90{
+  padding-bottom: 90px !important;
+}
+.paddingL90{
+  padding-left: 90px !important;
+}
+.paddingR90{
+  padding-right: 90px !important;
+}
+
+.padding80{
+  padding: 80px !important;
+}
+.paddingT80{
+  padding-top: 80px !important;
+}
+.paddingB80{
+  padding-bottom: 80px !important;
+}
+.paddingL80{
+  padding-left: 80px !important;
+}
+.paddingR80{
+  padding-right: 80px !important;
+}
+
+.padding70{
+  padding: 70px !important;
+}
+.paddingT70{
+  padding-top: 70px !important;
+}
+.paddingB70{
+  padding-bottom: 70px !important;
+}
+.paddingL70{
+  padding-left: 70px !important;
+}
+.paddingR70{
+  padding-right: 70px !important;
+}
+
+.padding60{
+  padding: 60px !important;
+}
+.paddingT60{
+  padding-top: 60px !important;
+}
+.paddingB60{
+  padding-bottom: 60px !important;
+}
+.paddingL60{
+  padding-left: 60px !important;
+}
+.paddingR60{
+  padding-right: 60px !important;
+}
+
+.padding50{
+  padding: 50px !important;
+}
+.paddingT50{
+  padding-top: 50px !important;
+}
+.paddingB50{
+  padding-bottom: 50px !important;
+}
+.paddingL50{
+  padding-left: 50px !important;
+}
+.paddingR50{
+  padding-right: 50px !important;
+}
+
+.padding40{
+  padding: 40px !important;
+}
+.paddingT40{
+  padding-top: 40px !important;
+}
+.paddingB40{
+  padding-bottom: 40px !important;
+}
+.paddingL40{
+  padding-left: 40px !important;
+}
+.paddingR40{
+  padding-right: 40px !important;
+}
+
+.padding20{
+  padding: 20px !important;
+}
+.paddingT20{
+  padding-top: 20px !important;
+}
+.paddingB20{
+  padding-bottom: 20px !important;
+}
+.paddingL20{
+  padding-left: 20px !important;
+}
+.paddingR20{
+  padding-right: 20px !important;
+}
+
+.padding10{
+  padding: 10px !important;
+}
+
+.padding12{
+  padding: 12px !important;
+}
+
+.padding15{
+  padding: 15px !important;
+}
+
+.paddingT10{
+  padding-top: 10px !important;
+}
+.paddingB10{
+  padding-bottom: 10px !important;
+}
+.paddingL10{
+  padding-left: 10px !important;
+}
+.paddingR10{
+  padding-right: 10px !important;
+}
+
+.padding5{
+  padding: 5px !important;
+}
+.paddingT5{
+  padding-top: 5px !important;
+}
+.paddingB5{
+  padding-bottom: 5px !important;
+}
+.paddingL5{
+  padding-left: 5px !important;
+}
+.paddingR5{
+  padding-right: 5px !important;
+}
+
+.semPadding{
+  padding: 0 !important;
+}
+/* FIM DAS CLASSES DE PADDINGS */
+
+/* Classes de largura das tabelas da home */
+
+.thWidth10 {
+  width: 10% !important;
+  max-width: 10% !important;
+  padding: 0 0;
+  margin: 0;
+}
+
+
+
+
+/* fim classes de largura das tabelas da home */

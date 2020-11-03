@@ -1,0 +1,182 @@
+
+.nav {
+    background-color: #17A2B8;
+}
+
+.nav-sem-cor {
+    background: transparent!important;
+}
+
+.nav-tabs-custom {
+    box-shadow: 0 0 1px rgba(0,0,0,.125), 0 1px 3px rgba(0,0,0,.2)!important;
+}
+
+.nav-tabs-custom>.nav-tabs>li {
+    border-top: none!important;
+}
+
+.nav-tabs .nav-link {
+    /*border: 0px solid transparent !important;*/
+    height: 100%!important;
+    color: #fff!important;
+}
+
+.nav-tabs .active a {
+    background-color: #fff!important;
+    color: #000!important;
+    border-top: 3px solid!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+}
+
+.nav-tabs.azul .active a {
+    border-top-color: #17A2B8!important;
+}
+
+.nav-tabs.laranja .active a {
+    border-top-color: #FF6347!important;
+}
+
+.nav-tabs.verde .active a {
+    border-top-color: #5CB85C!important;
+}
+
+#myTab {
+   background-color: #FF6347!important; 
+}
+
+.nav-tabs.azul {
+   background-color: #17A2B8!important; 
+}
+
+.nav-tabs.laranja {
+   background-color: #FF6347!important; 
+}
+
+.nav-tabs.verde {
+   background-color: #5CB85C!important; 
+}
+
+#myTab3 {
+   background-color: #5cb85c!important; 
+}
+
+li.active .borda-colorida {
+    background-repeat: no-repeat !important;
+    background-size: 100% 100%, 100% 200% !important;
+    background-position: 0 0, 0 100% !important;
+    background-origin: padding-box, border-box !important;
+    animation: highlight 3s infinite alternate !important;
+
+    background-image:
+      linear-gradient(#F0F8FF, #F0F8FF),
+      linear-gradient(15deg, #17A2B8, #b0f4fb 50%, #17A2B8 100%) !important;
+
+    background-repeat: no-repeat !important;
+    background-origin: padding-box, border-box !important;
+    text-align: center !important;
+}
+
+li.active .borda-colorida.azul {
+    background-image:
+      linear-gradient(#F0F8FF, #F0F8FF),
+      linear-gradient(15deg, #00ACD6, #cff5ff 50%, #00ACD6 100%) !important;       
+}
+li.active .borda-colorida.vermelho {
+    background-image:
+    linear-gradient(#F0F8FF, #F0F8FF),
+    linear-gradient(15deg, #7a0000, #ff0000 50%, #7a0000 100%)!important;        
+}
+li.active .borda-colorida.verde {
+    background-image:
+    linear-gradient(#F0F8FF, #F0F8FF),
+    linear-gradient(15deg, #5cb85c, #e3ffe3 50%, #5cb85c 100%)!important;
+}
+li.active .borda-colorida.laranja {
+    background-image:
+    linear-gradient(#F0F8FF, #F0F8FF),
+    linear-gradient(15deg, #ff9400, #ffdcab 50%, #ff9400 100%)!important;
+}
+li.active .borda-colorida.olive {
+    background-image:
+    linear-gradient(#F0F8FF, #F0F8FF),
+    linear-gradient(15deg, #808000, #d0d000 50%, #808000 100%)!important;
+}
+li.active .borda-colorida.tomato {
+    background-image:
+    linear-gradient(#F0F8FF, #F0F8FF),
+    linear-gradient(15deg, #FF6347, #ffa898 50%, #FF6347 100%)!important;
+}
+
+#espaco {
+    margin-top: 50vh;
+}
+@keyframes highlight {
+    from{  
+        background-position: 0 0, 0 100% !important;
+    }
+    to {
+        background-position: 0 0, 0 0 !important;
+    }
+}
+
+/* tab dash board */
+
+.nav-tabs-custom.nav-dashboard .nav {
+    background-color: white !important;
+    margin-top: -43px;
+    border: 0px!important;
+}
+
+.nav-tabs-custom.nav-dashboard {
+    .min-height: calc(80vh - 100px);
+    /*padding-top: 10px;*/
+    padding-bottom: 6px;
+}
+
+.nav-tabs-custom.nav-dashboard .nav-tabs li a {
+    background-color: white!important;
+    color: #000!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+}
+.nav-tabs-custom.nav-dashboard .nav-tabs li a.nav-link {
+    /*padding-bottom: 5px!important; */
+}
+.nav-tabs-custom.nav-dashboard .tab-content.collapse.in{
+    border-top: 1px solid #cfcfcf;
+    margin-top: 13px;
+}
+
+
+/*.nav-tabs-custom.nav-dashboard .active a {
+    background-color: #red!important;
+    color: #000!important;
+    border-left: 0px!important;
+    border-right: 0px!important;
+}*/
+
+.card-imagem .panel-heading:hover * {
+    color: white!important;
+    
+}
+
+
+.nav-tabs-custom.nav-dashboard .active a {
+   /* color: white;*/
+}
+
+.nav-tabs-custom.nav-dashboard .active .card-job a, 
+{
+    color: black!important;
+}
+
+
+.nav-tabs-custom.nav-dashboard .panel .box-header a {
+    color: black!important;
+}
+
+.nav-tabs-custom.nav-dashboard  a.link-detalhe
+{
+    color: black!important
+}

@@ -1,0 +1,39 @@
+/*
+  @author Marelo Cabral
+  Criado com as classes básicas para controles de texto
+  do meu uso no código html.
+  25.09.2018
+  última atualização: 22.01.2019
+*/
+
+.texto-centralizado{
+    text-align: center !important;
+}
+
+.texto-justificado{
+    text-align: justify !important;
+}
+
+.texto-esquerda{
+    text-align: left !important;
+}
+
+.texto-direita{
+    text-align: right !important;
+}
+
+.font-raleway{
+    font-family: 'Raleway', sans;
+}
+
+.negrito{
+  font-weight: bold !important;
+}
+
+.texto-riscado{
+  text-decoration: line-through !important;
+}
+
+.texto-italico{
+  font-style: italic !important;
+}

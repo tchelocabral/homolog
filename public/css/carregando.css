@@ -1,0 +1,38 @@
+/*
+  @author Marelo Cabral
+  Criado com as classes básicas para estilo de mensagem de carregando
+  13.06.2019
+  última atualização: 13.06.2019
+*/
+
+
+.carregando{
+    display:    none;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     100%;
+    width:      100%;
+    background: rgba( 0, 0, 0, .5 )
+        /*url('../images/carregando.gif')*/
+        200px 200px
+        no-repeat;
+}
+.carregando #div-gif{
+    max-width: 90px;
+    max-height: 90px;
+}
+/* When the body has the loading class, we turn
+   the scrollbar off with overflow:hidden */
+body.loading .carregando {
+    overflow: hidden;
+}
+/* Anytime the body has the loading class, our
+   carregando element will be visible */
+body.loading .carregando {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}

@@ -1,0 +1,177 @@
+/*
+  @author Marelo Cabral
+  Criado com as classes básicas para controle dos inputs e itens de forms
+  30.04.2019
+  última atualização: 13.09.2019
+*/
+
+
+/* MOUSE POINTER ON HOVER */
+.mouse-pointer:hover{
+    cursor: pointer !important;
+}
+/* MOUSE POINTER ON HOVER */
+
+/* GERAL DIV ITEM FORMS */
+.div-item-form{
+    margin-bottom: 10px;
+}
+.form-itens-list input{
+    border-top: 0px ;
+    border-left: 0px ;
+    border-right: 0px ;
+    /*border-bottom: #333 solid 1px;*/
+}
+.form-itens-list input:focus {
+outline: #333 auto 0px !important;
+}
+/* GERAL DIV ITEM FORMS */
+
+/* INPUT FILE */
+.image-preview-input {
+    position: relative;
+    overflow: hidden;
+    margin: 0px;
+    color: #333;
+    background-color: #fff;
+    border-color: #ccc;
+}
+.image-preview-input input[type=file] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: 0;
+    padding: 0;
+    font-size: 20px;
+    cursor: pointer;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+.image-preview-input-title {
+    margin-left:2px;
+}
+/* INPUT FILE */
+
+/* DATE FILE*/
+input[type="date"].form-control,
+input[type="time"].form-control,
+input[type="datetime-local"].form-control,
+input[type="month"].form-control{
+    line-height: 14px !important;
+}
+/* DATE FILE*/
+
+/* GERAL FORM DELETE ON TD */
+td .form-delete{
+    display: contents;
+}
+/* GERAL FORM DELETE ON TD */
+
+
+/* AJUSTE COMBOS SELECT 2 CONTAINER */
+.select2-container{
+    width: 100% !important;
+    max-width: 100% !important;
+}
+#combo-tasks + .select2-container--default.select2-container--focus .select2-selection--multiple,
+#combo-tasks + .select2-container--default .select2-search--dropdown .select2-search__field{
+    padding: 6px 5px 9px !important;
+    border-color: rgb(89, 191, 192) !important;
+}
+/* AJUSTE COMBOS SELECT 2 CONTAINER */
+
+/*MOUSE HOVER A.BTN*/
+a.btn:hover{
+    cursor: pointer;
+}
+/*MOUSE HOVER A.BTN*/
+
+
+/* REVISÃO FORM */
+/* classe pin dentro do input*/
+.pin{
+    width: 20px;
+    display: inline;
+    text-align: left;
+    margin-right: 2px;
+    margin-bottom: 3px;
+}
+
+/* class da div do txt ponto desc */
+.divTxtPonto {
+    display: inline-block;
+}
+
+.alturatextarea100
+{
+    height: 100px;
+}
+/* REVISÃO FORM */
+
+/* MODAL PEGA JOB FORM */
+/*#form-pega-job .jconfirm .jconfirm-box div.jconfirm-content-pane .jconfirm-content {
+    overflow: hidden !important;
+}*/
+/* MODAL PEGA JOB FORM */
+
+/* COMENTÁRIOS */
+.reply form{
+    display: inline-block;
+}
+.display-comment.novo,
+.display-comment.novo *,
+.display-comment.novo h3,
+.display-comment.novo h4{
+    -webkit-animation-delay: 0s;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-fill-mode: forwards;
+    /* comentando 20/06/2020 */
+    /* -webkit-animation-name: bkgFadeWhite ;
+    animation-name: bkgFadeWhite ; */
+    animation-delay: 0s;
+    animation-duration: 2s;
+    animation-fill-mode: forwards;
+    /* comentando 20/06/2020 */
+    /* color: #fff; */
+}
+.display-comment.user,
+.display-comment.user *{
+    /* comentando 20/06/2020 */
+    /* color: #707070 ;
+    background-color: #fff; */
+}
+.display-comment.other,
+.display-comment.other *{
+    /* comentando 20/06/2020 */
+    /* -webkit-animation-name: bkgFade ;
+    animation-name: bkgFade ;    
+    color: #fff; 
+    background-color: #17a2b8; */
+}
+span.divisor{
+    font-size: 10px;
+    vertical-align: text-top;
+}
+/* COMENTÁRIOS */
+
+/* ANIMAÇÕES */
+@keyframes bkgFadeWhite {
+    from { color: #fff; background-color: #17a2b8; }
+    to   { color: #707070; background-color: #fff; }
+}
+@keyframes bkgFadeCyan {
+    from { color: #707070; background-color: #fff; }
+    to   { color: #fff; background-color: #17a2b8; }
+}
+/* ANIMAÇÕES */
+
+/* tira auto width do form-control */
+.form-control-width
+{
+    width:100% !important; ;
+}
+
+.div-check-concluir-job {
+
+    text-align: center;
+}

@@ -1,0 +1,33 @@
+/*
+  @author Marelo Cabral
+  Criado com as classes básicas para estilo de tabelas
+  sehuindo layout da Retrato Falado.
+  02.04.2019
+  última atualização: 02.04.2019
+*/
+
+
+
+table thead{
+    font-family: 'Raleway';
+}
+tr.collapse.in {
+    display:table-row;
+}
+.clickable {
+    cursor: pointer;
+}
+.clickable:hover .icheckbox_square-blue:not(:has(input[type="checkbox"]:checked)){
+    background-position: -24px 0;
+}
+.clickable:hover, .active-collpase {
+    /*background:rgb(169,169,169);*/
+    background:#d9edf7;
+    /*border:rgb(169,169,169);*/
+    /*color: white;*/
+    font-weight: bold;
+    -moz-transition: all 0.5s ease;
+    -webkit-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}

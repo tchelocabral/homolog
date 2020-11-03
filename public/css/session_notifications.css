@@ -1,0 +1,195 @@
+
+
+/* POSITION */
+	.session-message{
+		position: absolute;
+		top: 60px;
+		right: 10px;
+		width: auto;
+		color: white !important;
+		border: 0px !important;
+		border-width: 0px !important;
+		padding: 10px 20px !important;
+		font-size: 1em !important;
+		white-space: nowrap;
+		transition: .5s all ease-in-out;
+		opacity: 1;
+	}
+	.session-message .progress{
+		position: absolute;
+	    bottom: 0px;
+	    right: 0;
+	    left: 0;
+	    margin: 0;
+	    height: 5px;
+	    width: 0%;
+	    background-color: rgba(255, 255, 255, 0.7)
+	}
+/* POSITION */
+
+/* NOTIFICATION ERRO */
+	.session-message-erro{
+		background-color: #e74c3c !important;
+		box-shadow: 0 0 8px #e74c3c !important;
+		-webkit-box-shadow: 0 0 8px #e74c3c !important;
+		-moz-box-shadow: 0 0 8px #e74c3c !important;
+	}
+	.session-message-erro .progress{
+	    /*background-color: #FF4500;*/
+	}
+/* NOTIFICATION ERRO */
+
+/* NOTIFICATION SUCCESS */
+	.session-message-success{
+		background-color: #2ecc71 !important;
+		background-image: none !important;
+		box-shadow: 0 0 8px #2ecc71 !important;
+		-webkit-box-shadow: 0 0 8px #2ecc71 !important;
+		-moz-box-shadow: 0 0 8px #2ecc71 !important;
+	}
+	.session-message-success .progress{
+	    /*background-color: #5cb85c;*/
+	}
+/* NOTIFICATION SUCCESS */
+
+/* NOTIFICATION FADE OUT */
+	.session-notification-efeito{
+		/*Animação*/
+		-webkit-animation-name: session-notification;  /* Safari 4.0 - 8.0 */
+		-webkit-animation-delay: 4s;  /* Safari 4.0 - 8.0 */
+		-webkit-animation-duration: .5s;  /* Safari 4.0 - 8.0 */
+		-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+		animation-name: session-notification;
+		animation-delay: 4s;
+		animation-duration: .5s;
+		animation-fill-mode: forwards;
+	}
+	@keyframes session-notification {
+		/*from {right: 14px; opacity: 1;}*/
+		/*to {right: -15px;opacity: 0;}*/
+		0%   {right: 14px; opacity: 1;}
+		10%  {right: 58px;opacity: 1;}
+		100% {right: -10px;opacity: 0;}
+	}
+/* NOTIFICATION FADE OUT */
+	
+/* NOTIFICATION PROGRESS */
+	.session-notification-efeito .progress{
+		/*Animação*/
+		-webkit-animation-name: progress-notification;  /* Safari 4.0 - 8.0 */
+		-webkit-animation-delay: .2s;  /* Safari 4.0 - 8.0 */
+		-webkit-animation-duration: 4s;  /* Safari 4.0 - 8.0 */
+		-webkit-animation-fill-mode: forwards; /* Safari 4.0 - 8.0 */
+		animation-name: progress-notification;
+		animation-delay: .2s;
+		animation-duration: 4s;
+		animation-fill-mode: forwards;
+	}
+	@keyframes progress-notification {
+		from {width: 0%;}
+		to   {width: 100%;}
+	}
+/* NOTIFICATION PROGRESS */
+
+/*NOTIFICATION CLOSE BUTTON*/
+	#fechar-session-message{
+		color: white;
+		width: 100%;
+		text-align: right;
+		display: block;
+		/*margin-bottom: 5px;*/
+	}
+	#fechar-session-message:hover{
+		font-weight: bold;
+		cursor: pointer;
+	}
+/*NOTIFICATION CLOSE BUTTON*/
+
+
+
+
+/* USER NOTIFICATIONS */
+	.notifications-count{
+	    font-size: 90%;
+	    position: absolute;
+        top: -10px;
+        right: -17px;
+	    padding: 2px 3px;
+	    font-family: 'Source Sans Pro',sans-serif !important;
+	    color: white;
+	    font-weight: 600;
+		display: none;
+	}
+	.notifications-count.has{
+		display: block;
+	    background-color: #a94442;
+	}
+	.notification-list{
+		width: 320px!important;
+		max-width: 320px;
+		max-height: 40vh;
+	}
+	.notification-list *{
+		list-style: none !important;
+	}
+	.notification-list .menu{
+		padding-left: 30px;
+		padding-right: 5px;
+		overflow-y: auto;
+		max-height: 300px;
+	}
+	.user-notification{
+	    font-size: 1.2rem!important;
+	    font-family: Verdana, Geneva, Tahoma, sans-serif !important;
+	    word-break: break-all!important;
+	    text-overflow: ellipsis!important;
+	    overflow: hidden!important;
+	    white-space: nowrap;
+	    max-width: 100%;
+	    display: block;
+	    border-bottom: 1px solid #c6c6c6;
+	    line-height: 1.65;
+		background-color: #ffff;
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	.user-notification a{
+		overflow-wrap: break-word;
+	}
+	.user-notification-header{
+	    color: black;
+	    padding: 3px 20px;
+	    font-weight: bold;
+	    border-bottom: 1px solid #c6c6c6; 
+	}
+	.user-notification-header h4{
+	    font-weight: bold;
+	}
+	.user-notification a:hover{
+		text-decoration: none;
+	}
+	.footer a:hover{
+		color: #17a2b8 !important;
+		font-weight: bold;
+	}
+	/* .all-notifications{ */
+	    /*background-color: black;*/
+	/* } */
+	/* .all-notifications a{
+		transition: all 0.3 ease-in-out;
+		text-decoration: none;
+		border: 0px;
+	    border-bottom: 1px solid #cacaca; 
+	}
+	.all-notifications:hover a,
+	.all-notifications a:hover{
+		background-color: transparent !important;
+		opacity: 1;
+		text-decoration: underline;
+		font-weight: bold;
+	}
+	.all-notifications a:first-child{
+		border-right: 1px solid #cacaca;
+	} */
+/* USER NOTIFICATIONS */
+

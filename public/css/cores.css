@@ -1,0 +1,84 @@
+/*
+  @author Marelo Cabral
+  Criado com as classes básicas para cores de texto e fundo
+  sehuindo layout da Retrato Falado.
+  22.01.2019
+  última atualização: 29.11.2019
+*/
+
+
+.fundo-escuro       { background-color: #434040 !important; }
+.fundo-cinza        { background-color: #F0F0F0 !important; }
+.fundo-branco       { background-color: #FFF !important; }
+.fundo-vinho        { background-color: #903261 !important; }
+.fundo-verde        { background-color: rgb(89, 191, 192) !important; }
+.fundo-verde-escuro { background-color: #28a745!important; }
+.fundo-azul         { background-color: #17A2B8 !important }
+.fundo-laranja      { background-color: #f39c12!important }
+.fundo-vermelho      { background-color: #dd4b39!important }
+
+.borda-cinza        { border: 1px solid #f4f4f4 !important; }
+.borda-t-cinza      { border-top: 1px solid #f4f4f4 !important; }
+.borda-b-cinza      { border-bottom: 1px solid #f4f4f4 !important; }
+.borda-l-cinza      { border-left: 1px solid #f4f4f4 !important; }
+.borda-r-cinza      { border-right: 1px solid #f4f4f4 !important; }
+
+.borda-vinho-t      {border-top-color: #903261 !important;}
+.borda-azul-t       {border-top-color: #17A2B8 !important;}
+.borda-laranja-t    {border-top-color: #f39c12 !important;}
+.borda-vermelho-t   {border-top-color: #dd4b39 !important;}
+
+.azul-turquesa{ color: #0FB7AD; }
+
+.cyan {
+    color: #fff !important;
+    background-color: #17a2b8 !important;
+}
+
+.orange {
+    color: #fff !important;
+    background-color: #FF9A02 !important;
+}
+
+
+/*rgb(92, 155, 165);*/
+.texto-branco,
+.texto-branco *,
+a.texto-branco:hover,
+a.texto-branco:focus{
+    color: #fff !important;
+    /*font-weight: normal;*/
+}
+.texto-preto,
+.texto-preto *,
+a.texto-preto{
+    color: #000 !important;
+}
+
+a.texto-branco:focus
+a.texto-branco:focus,
+a.texto-preto:hover,
+a.texto-preto:hover{
+    outline: transparent !important;
+    color: #888 !important;
+    text-decoration-line: underline;
+    text-decoration-style: solid;
+}
+
+.texto-cinza,
+a.texto-cinza{
+  color: #cdcdcd !important;
+}
+
+
+.texto-leve,
+.texto-leve *,
+a.texto-leve:hover,
+a.texto-leve:focus{
+    color: #707070 !important;
+}
+
+.texto-azul-turquesa,
+.texto-azul-turquesa *,
+a.texto-azul-turquesa:hover,
+a.texto-azul-turquesa:focus{ color: #0FB7AD !important; }

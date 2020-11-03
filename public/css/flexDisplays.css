@@ -1,0 +1,104 @@
+
+/* 
+    @author Marelo Cabral
+    Criado com as classes básicas para usar FlexBox
+    no código html.
+    21.08.2017
+    versão 3.0 - 27.04.2018
+*/
+
+.displayFlex{
+    display: -webkit-box  !important;  /* OLD - iOS 6-, Safari 3.1-6 */
+    display: -moz-box     !important;  /* OLD - Firefox 19- (buggy but mostly works) */
+    display: -ms-flexbox  !important;  /* TWEENER - IE 10 */
+    display: -webkit-flex !important;  /* NEW - Chrome */
+    display: flex         !important;
+}
+.flexLinhas{
+    -webkit-box-orient: horizontal !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: row !important;
+            flex-direction: row !important;
+}
+.flexColunas{
+    -webkit-box-orient: vertical !important;
+    -webkit-box-direction: normal !important;
+        -ms-flex-direction: column !important;
+            flex-direction: column !important;
+}
+.flexCentralizado{
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important; 
+
+    -ms-flex-line-pack:   center !important;
+        align-content:   center !important;
+
+    -webkit-box-align:     center !important;
+    -ms-flex-align:     center !important;
+        align-items:     center !important;
+}
+.flexItensStart{
+    -webkit-box-align: start !important;
+    -ms-flex-align: start !important;
+        align-items: flex-start !important; 
+}
+.flexItensEnd{
+    -webkit-box-align: end !important;
+    -ms-flex-align: end !important;
+        align-items: flex-end !important;
+}
+.flexItensBaseline{
+    -webkit-box-align: baseline !important;
+    -ms-flex-align: baseline !important;
+        align-items: baseline !important;  
+}
+.flexItensCentralizado{
+       -webkit-box-align:     center !important;
+    -ms-flex-align:     center !important;
+        align-items:     center !important;
+}
+.flexElementoCentralizado{
+    -webkit-box-pack: center !important;
+        -ms-flex-pack: center !important;
+            justify-content: center !important; 
+}
+.flexWrap{
+    -ms-flex-wrap: wrap !important;
+        flex-wrap: wrap !important;
+}
+.flexNoWrap{
+    -ms-flex-wrap: nowrap !important;
+        flex-wrap: nowrap !important;
+}
+.flexSpaceAround{
+    -ms-flex-pack: distribute !important;
+    justify-content: space-around !important;
+}
+.flexSpaceBetween{
+    -webkit-box-pack: justify !important;
+    -ms-flex-pack: justify !important;
+        justify-content: space-between !important;
+}
+.flexStart{
+    -webkit-box-pack: start !important;
+    -ms-flex-pack: start !important;
+        justify-content: flex-start !important;
+}
+.flexEnd{
+    -webkit-box-pack: end !important;
+    -ms-flex-pack: end !important;
+        justify-content: flex-end !important;
+}
+.flexSelfStart {
+    -ms-flex-item-align: start !important;
+        align-self: flex-start !important;  
+}
+.flexSelfEnd{
+    -ms-flex-item-align: end !important;
+        align-self: flex-end !important; 
+}
+.flexSelfCenter{
+    -ms-flex-item-align: center !important;
+        align-self: center !important; 
+}

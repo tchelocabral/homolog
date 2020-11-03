@@ -1,0 +1,35 @@
+/*
+  @author Marelo Cabral
+  Criado com as classes básicas para estilo de box de avaliação
+  13.06.2019
+  última atualização: 13.06.2019
+*/
+
+
+.avaliacao-overlay{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position:   fixed;
+    z-index:    1000;
+    top:        0;
+    left:       0;
+    height:     calc(100% + 50px);
+    width:      100%;
+    background: rgba( 0, 0, 0, .5 );
+    overflow: hidden;
+    margin-top:-50px;
+    z-index: 1030;
+
+
+}
+.avaliacao-overlay #div-avaliacao{
+    width: 600px;
+    max-height: 400px;
+    background: #1c1c2d;
+    padding: 16px;
+    border-radius: 0px;
+
+}
+
